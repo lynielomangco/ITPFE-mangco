@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decals Category</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+</head>
+<body>
+
+    <input type="checkbox" name="" id="check">
+    <div class="container1">
+        <label for="check">
+            <span class="fas fa-times" id=times></span>
+            <span class="fas fa-bars" id=bars></span>
+        </label>
+        <div class="head1 "><img src="images/logo2.png" width="150px"></div>
+        
+        <ol>
+            <li><a href="tshirt.html"><i class="fas fa-arrow-right"></i>Shirts</a></li>
+            <li><a href="jackets.html"><i class="fas fa-arrow-right"></i>Jackets</a></li>
+            <li><a href="boxers.html"><i class="fas fa-arrow-right"></i>Boxers</a></li>
+            <li><a href="cap.html"><i class="fas fa-arrow-right"></i>Cap</a></li>
+            <li><a href="carfreshener.html"><i class="fas fa-arrow-right"></i>Car Freshener</a></li>
+            <li><a href="decals.html"><i class="fas fa-arrow-right"></i>Decals</a></li>
+            <li><a href="pants.html"><i class="fas fa-arrow-right"></i>Pants</a></li>
+            <li><a href="shorts.html"><i class="fas fa-arrow-right"></i>Shorts</a></li>
+            
+        </ol>
+    </div>
+
+<section>
+    <div class="container">
+        
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                <img src="images/logo.png" width="125px">
+            </a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">Login</a></li>
+                    <li><a href="">Register</a></li>
+                    <li><a href="Catalouge.html">Catalouge</a></li>                
+                </ul>
+               
+            </nav>
+             <img src="images/cart.png" width="30px" height="30px">
+             <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>  
+    
+        <div class="row">
+            <div class="col-2">
+                
+                <a href="index.html" class="btn">Home</a>
+            </div>
+        </div>
+          
+    </div>
+
+  
+<!--featured product -->
+<div class="small-container">
+    <h2 class="title">Decals</h2>
+    <div class="row">
+        <div class="col-4">
+        <img src="images/decals.png">
+        <h4>Decal 1</h4>
+        <p>₱ 300</p>
+        </div>
+        <div class="col-4">
+        <img src="images/decals2.png">
+        <h4>Decal 2</h4>
+        <p>₱ 300</p>
+        </div>
+        
+        
+    </div>
+    
+    
+</div>
+
+<!---Footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <img src="images/logo2.png" width="160px">
+                <p>WE SHIP WORLDWIDE. STAY FLY, STAY UPDATED.</p>
+            </div>
+            <div class="footer-col-2">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="https://web.facebook.com/bugoynakoykoymusic">Facebook</li></a>
+                    <li><a href="https://twitter.com/koykoysorrento?lang=en">Twitter</li></a>
+                    <li><a href="https://www.instagram.com/bugoynakoykoyofficial/?hl=en">Instagram</li></a>
+                    <li><a href="https://www.youtube.com/results?sp=mAEB&search_query=bugoy+na+koykoy+">Youtube</li></a>
+                </ul>
+            </div>
+            
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2022 - Daily Flight PH</p>
+        <p class="copyright1">Remake by Lynielo A. Mangco</p>
+    </div>
+  
+    </div>
+</div>
+</section>
+<!---jd for toggle menu---->
+<script>
+    var MenuItems = document.getElementById("MenuItems")
+
+    MenuItems.style.maxHeight = "0px";
+    
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px"
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px"
+        }
+    }
+</script>
+</body>
+</html>
